@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .badge {
+    @apply absolute right-0 z-50 px-4 py-2 font-semibold text-white -rotate-90 rounded-full -top-4;
+
+    &--red {
+      @apply bg-red-300;
+    }
+
+    &--green {
+      @apply bg-green-300;
+    }
+
+    &--purple {
+      @apply bg-purple-600;
+    }
+  }
+}
+.rotate-card {
+  transition: transform 0.5s ease;
+}
+
+.rotate-container:hover .rotate-card {
+  transform: rotatey(0.5turn);
+}
+
+.effect-product {
+  transition: transform 1s ease-in-out;
+}
