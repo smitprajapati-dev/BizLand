@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+/* @layer components {
   .badge {
     @apply absolute right-0 z-50 px-4 py-2 font-semibold text-white -rotate-90 rounded-full -top-4;
 
@@ -18,15 +18,10 @@
       @apply bg-purple-600;
     }
   }
-}
-.rotate-card {
-  transition: transform 0.5s ease;
+} */
+
+.bg-image {
+  background-image: url(../public/hero-bg.jpg);
+  background-size: cover;
 }
 
-.rotate-container:hover .rotate-card {
-  transform: rotatey(0.5turn);
-}
-
-.effect-product {
-  transition: transform 1s ease-in-out;
-}
