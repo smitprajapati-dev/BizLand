@@ -3,8 +3,8 @@ import { PlayCircleIcon, PlayIcon } from '@heroicons/react/24/outline';
 
 function Welcome() {
   return (
-    <section className="bg-image">
-      <div className="flex flex-col h-screen gap-6 justify-center ps-20 mt-16">
+    <section className="bg-image h-screen bg-cover bg-center bg-no-repeat bg-fixed">
+      <div className="flex flex-col h-screen gap-6 justify-center ps-20">
         <h2 className="text-5xl font-bold ">
           Welcome To <span className="text-blue-500"> BizLand </span>
         </h2>

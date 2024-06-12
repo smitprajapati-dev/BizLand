@@ -1,19 +1,26 @@
 import React from 'react';
 import clsx from 'clsx';
 
-function Card({ title, imageUrl, className }) {
+function Card({ title, imageUrl, className, para }) {
   return (
     <div
       className={clsx(
-        'flex gap-5 place-content-center w-20 h-60 aspect-4/3 md:aspect-3/4 rounded-2xl rotate-container relative max-lg:mt-7 mt-10',
+        'flex flex-col gap-5 justify-center w-[290px] h-[290px] rounded-2xl shadow-2xl max-lg:mt-7 mt-10 p-4',
         {
           [className]: !!className,
         },
       )}
     >
-      <div className="rotate-card">
-        <h3>{title}</h3>
-        <img src={imageUrl} alt="icon" />
+      <div className='ps-1 pt-4'>
+        <img
+          src={imageUrl}
+          alt="icon"
+          className="h-[50px] w-[50px] text-blue-600 "
+        />
+      </div>
+      <div className="">
+        <h3 className="pb-2 font-semibold text-xl">{title}</h3>
+        <p>{para}</p>
       </div>
     </div>
   );

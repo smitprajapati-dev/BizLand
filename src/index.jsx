@@ -4,6 +4,7 @@ import './style.css';
 import Header from './containers/Header';
 import Welcome from './containers/welcome';
 import Categories from './containers/Categories';
+import About from './containers/About';
 
 // Clear the existing HTML content
 document.body.innerHTML = '<div id="app"></div>';
@@ -14,4 +15,5 @@ root.render(<div>
   <Header/>
   <Welcome />
   <Categories />
+  <About />
 </div>);

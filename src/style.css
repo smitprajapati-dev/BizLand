@@ -23,5 +23,8 @@
 .bg-image {
   background-image: url(../public/hero-bg.jpg);
   background-size: cover;
+  /* height: 80vh; */
 }
+
+
 

@@ -1,30 +1,35 @@
 import React from 'react';
 import Card from './card';
 import '../../style.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Categories() {
   return (
-    <div >
-      <div className="flex  items-center justify-center px-12  h-auto gap-8">
+    <div className='pb-[70px] pt-[50px]'>
+      <div className="flex  items-center justify-center px-12   h-auto gap-8">
         <Card
-          imageUrl=""
-          title=""
-          className="flex-grow flex-shrink-0 bg-green-200 flip-container basis-44"
+          imageUrl="https://img.icons8.com/?size=100&id=ZCigOwRb1UOa&format=png&color=000000"
+          title="Lorem Ipsum"
+          className="flex-shrink-0"
+          para="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
         />
         <Card
-          imageUrl=""
-          title=""
-          className="flex-grow flex-shrink-0 bg-yellow-200 basis-44"
+          imageUrl="https://img.icons8.com/?size=100&id=qyaeN4EFcdU1&format=png&color=000000"
+          title="Sed ut perspiciatis"
+          className=" flex-shrink-0"
+          para="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore"
         />
         <Card
-          imageUrl=""
-          title=""
-          className="flex-grow flex-shrink-0 bg-blue-100 basis-44"
+          imageUrl="https://img.icons8.com/?size=100&id=103584&format=png&color=000000"
+          title="Magni Dolores"
+          className=" flex-shrink-0"
+          para="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia"
         />
         <Card
-          imageUrl=""
-          title=""
-          className="flex-grow flex-shrink-0 bg-orange-100 basis-44"
+          imageUrl="https://img.icons8.com/?size=100&id=63766&format=png&color=000000"
+          title="Nemo Enim"
+          className=" flex-shrink-0"
+          para="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis"
         />
       </div>
     </div>
