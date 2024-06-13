@@ -26,6 +26,13 @@
   /* height: 80vh; */
 }
 
+.bg-tst-img{
+  background-image: url(../public/testimonials-bg.jpg);
+  background-size: cover;
+}
+
+
+
 
 
 

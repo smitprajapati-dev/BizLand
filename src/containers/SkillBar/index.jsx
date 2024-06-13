@@ -12,7 +12,7 @@ const skills2 = [
 ];
 function Skillbar() {
   return (
-    <div className="flex w-full container mx-auto mt-10 gap-4 pb-16">
+    <div className="flex w-[90%] container mx-auto mt-10 gap-4 pb-16">
       <div className='w-1/2'>
         {skills1.map((skill, index) => (
           <div key={index} className="mb-4">
