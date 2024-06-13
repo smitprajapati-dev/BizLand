@@ -5,6 +5,7 @@ import Header from './containers/Header';
 import Welcome from './containers/welcome';
 import Categories from './containers/Categories';
 import About from './containers/About';
+import Skillbar from './containers/SkillBar';
 
 // Clear the existing HTML content
 document.body.innerHTML = '<div id="app"></div>';
@@ -16,4 +17,5 @@ root.render(<div>
   <Welcome />
   <Categories />
   <About />
+  <Skillbar />
 </div>);

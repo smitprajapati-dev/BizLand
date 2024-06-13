@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Categories() {
   return (
     <div className='pb-[70px] pt-[50px]'>
-      <div className="flex  items-center justify-center px-12   h-auto gap-8">
+      <div className="flex  items-center justify-center px-12 h-auto gap-8">
         <Card
           imageUrl="https://img.icons8.com/?size=100&id=ZCigOwRb1UOa&format=png&color=000000"
           title="Lorem Ipsum"
