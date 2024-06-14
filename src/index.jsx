@@ -10,6 +10,7 @@ import InfoCards from './containers/infoCards';
 import Gap from './containers/gap';
 import Services from './containers/Services';
 import Reviews from './containers/Reviews';
+import Drop from './containers/Drop';
 
 // Clear the existing HTML content
 document.body.innerHTML = '<div id="app"></div>';
@@ -26,4 +27,5 @@ root.render(<div>
   <Gap />
   <Services />
   <Reviews />
+  <Drop />
 </div>);
