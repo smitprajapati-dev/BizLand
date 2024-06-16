@@ -52,7 +52,7 @@ const data2 = [
 
 function Services() {
   return (
-    <div className="pt-20 pb-20">
+    <div className="pt-20 pb-20 container mx-auto w-[80%]">
       <div className="flex flex-col items-center ">
         <h3 className="bg-blue-100 py-1 px-6 rounded-full text-blue-600 font-bold mb-3">
           SERVICES

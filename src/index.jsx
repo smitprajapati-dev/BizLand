@@ -11,6 +11,11 @@ import Gap from './containers/gap';
 import Services from './containers/Services';
 import Reviews from './containers/Reviews';
 import Drop from './containers/Drop';
+import Prices from './containers/Prices';
+import Footer from './containers/Footer';
+import Join from './containers/Join';
+import Portfolio from './containers/Portfolio';
+import Team from './containers/Team';
 
 // Clear the existing HTML content
 document.body.innerHTML = '<div id="app"></div>';
@@ -27,5 +32,10 @@ root.render(<div>
   <Gap />
   <Services />
   <Reviews />
+  <Portfolio />
+  <Team />
+  <Prices />
   <Drop />
+  <Join />
+  <Footer />
 </div>);

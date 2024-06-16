@@ -2,28 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer components {
-  .badge {
-    @apply absolute right-0 z-50 px-4 py-2 font-semibold text-white -rotate-90 rounded-full -top-4;
-
-    &--red {
-      @apply bg-red-300;
-    }
-
-    &--green {
-      @apply bg-green-300;
-    }
-
-    &--purple {
-      @apply bg-purple-600;
-    }
-  }
-} */
 
 .bg-image {
   background-image: url(../public/hero-bg.jpg);
   background-size: cover;
-  /* height: 80vh; */
 }
 
 .bg-tst-img{

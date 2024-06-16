@@ -16,7 +16,7 @@ function AccordionItem({ title, content }) {
         <span className={`transform transition-transform mr-2 ${isOpen ? 'rotate-180' : 'rotate-0'}`}>
           {isOpen ? '⌃' : '⌄'}
         </span>
-        <span className=" text-[22px] flex-1">{title}</span>
+        <span className=" text-[20px] flex-1">{title}</span>
       </button>
       {isOpen && <div className="mt-2 text-xl text-gray-600">{content}</div>}
     </div>
@@ -53,7 +53,7 @@ function Accordion() {
   ];
 
   return (
-    <div className="flex flex-col w-[80%] mx-auto container mt-10  rounded-lg gap-2">
+    <div className="flex flex-col w-[75%] mx-auto container mt-10  rounded-lg gap-2">
       {items.map((item, index) => (
         <AccordionItem key={index} title={item.title} content={item.content} />
       ))}

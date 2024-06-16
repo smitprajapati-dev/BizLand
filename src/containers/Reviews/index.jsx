@@ -4,7 +4,7 @@ import React from 'react';
 
 function Reviews() {
   return (
-    <div className="bg-tst-img w-full h-[50vh] flex flex-col items-center justify-center text-white">
+    <div className="bg-tst-img w-full h-[60vh] flex flex-col items-center justify-center text-white">
       <div>
         <img
           src="	https://bootstrapmade.com/demo/templates/BizLand/assets/img/testimonials/testimonials-4.jpg"

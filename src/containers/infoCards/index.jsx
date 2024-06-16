@@ -16,7 +16,7 @@ const data = [
 
 function InfoCards() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-[90%] gap-8 container mx-auto mt-10 pb-14">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 w-[80%] gap-8 container mx-auto mt-10 pb-14">
       {data.map((item, index) => (
         <div
           key={index}
