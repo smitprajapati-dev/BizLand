@@ -17,6 +17,7 @@ import Join from './containers/Join';
 import Portfolio from './containers/Portfolio';
 import Team from './containers/Team';
 import Contact from './containers/Contact_us';
+import Copy from './containers/copy';
 
 // Clear the existing HTML content
 document.body.innerHTML = '<div id="app"></div>';
@@ -40,4 +41,5 @@ root.render(<div>
   <Contact />
   <Join />
   <Footer />
+  <Copy />
 </div>);

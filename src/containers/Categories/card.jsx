@@ -5,7 +5,7 @@ function Card({ title, imageUrl, className, para }) {
   return (
     <div
       className={clsx(
-        'flex flex-col gap-5 justify-center w-[290px] h-[290px] rounded-2xl shadow-2xl max-lg:mt-7 mt-10 p-4',
+        'flex flex-col gap-5 justify-center w-[250px] h-[250px] rounded-2xl shadow-2xl max-lg:mt-7 mt-10 p-4 hover:',
         {
           [className]: !!className,
         },

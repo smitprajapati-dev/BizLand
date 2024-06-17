@@ -46,6 +46,9 @@ function TeamCard() {
             key={index}
             className="bg-white shadow-lg rounded-lg overflow-hidden"
           >
+            <div>
+
+            </div>
             <img
               className="w-full h-64 object-cover"
               src={member.imageUrl}
