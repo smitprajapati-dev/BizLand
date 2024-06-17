@@ -1,8 +1,6 @@
 import React from 'react';
 import Card from './card';
 import '../../style.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 function Categories() {
   return (
     <div className='pb-[70px] pt-[50px]'>

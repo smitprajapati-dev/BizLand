@@ -2,7 +2,7 @@ import React from 'react';
 
 function Portfolio() {
   return (
-    <div className='container w-[70%] flex flex-col items-center mx-auto'>
+    <div className='container w-[70%] flex flex-col items-center mx-auto pb-16'>
       <div className='flex flex-col mx-auto items-center py-16'>
         <h3 className="bg-blue-200 py-1 px-6 rounded-full text-blue-600 font-bold mb-3">
           Portfolio
